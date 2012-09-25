@@ -88,10 +88,10 @@ void launch(){
 
       //redServoReady = redServoMove();
       redServoMove();
-      if (redServoReady == true){
+      //if (redServoReady == true){
         for(int i = 0; i<10; i++){
           Serial.write(1);
-        }
+      //  }
       }
       redSavedTime = millis();
       redLight = false;
